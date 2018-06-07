@@ -1,20 +1,20 @@
 import React from 'react';
 import CounterButton from "./components/CounterButton";
 import SpecialTextBox from "./components/SpecialTextBox";
-import Counter from "./components/Counter";
-import SpecialText from "./components/SpecialText";
+import Counter from "./containers/CounterContainer";
+import SpecialText from "./containers/SpecialTextContainer";
 import UserButtons from "./components/UserButtons";
-import Thermostat from "./components/Thermostat";
-import Users from "./components/Users";
+import Thermostat from "./containers/ThermostatContainer";
+import Users from "./containers/UsersContainer";
 import ChangeTemperature from "./components/ChangeTemperature";
-import VideoPlayer from "./components/VideoPlayer";
+import VideoPlayer from "./containers/VideoPlayerContainer";
 import VideoTextBox from "./components/VideoTextBox";
-import CurrentCity from "./components/CurrentCity";
+import CurrentCity from "./containers/CurrentCityContainer";
 import CityDropDown from "./components/CityDropDown";
 import SearchTextBox from "./components/SearchTextBox";
 import SortUsers from "./components/SortUsers";
 import ScaleVideo from "./components/ScaleVideo";
-import Modal from "./components/Modal";
+import Modal from "./containers/ModalContainer";
 import ShowModal from "./components/ShowModal";
 
 function App() {
